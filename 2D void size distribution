@@ -47,7 +47,7 @@ end
 % colormap(jet);
 xlim([0 500]);
 ylim([1 10000]);
-xlabel(' 2D Apparent void radius, r [µm]');
+xlabel(' 2D Apparent void radius, r [Âµm]');
 ylabel('Void count');
 set(gca, 'YGrid', 'on', 'XGrid', 'off')
 set(gca, 'YScale', 'log')
