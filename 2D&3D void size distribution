@@ -48,7 +48,7 @@ end
 % colormap(jet);
 xlim([0 500]);
 ylim([10 10000]);
-xlabel('2D Apparent void radius, r [µm]');
+xlabel('2D Apparent void radius, r [Âµm]');
 ylabel('Void count');
 set(gca, 'YGrid', 'on', 'XGrid', 'off')
 set(gca, 'YScale', 'log')
@@ -121,7 +121,7 @@ end
 
 xlim([0 500]);
 ylim([10 10000]);
-xlabel('3D Actual void radius, R [µm]');
+xlabel('3D Actual void radius, R [Âµm]');
 ylabel('Void count');
 set(gca, 'YGrid', 'on', 'XGrid', 'off')
 set(gca, 'YScale', 'log')
